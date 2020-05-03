@@ -41,6 +41,9 @@ To use a relay with ESPHome, use a :doc:`GPIO Switch </components/switch/gpio>`.
 
 For a more complete example, check :doc:`Simple Garage Door </cookbook/garage-door>`.
 
+## Important Note
+Do not use ESPHome for critical applications.   Evidence is if driven from Home Assistant, for example, a crash of server may leave the relays ESPHome are driving in an intermediate state.
+
 See Also
 --------
 
